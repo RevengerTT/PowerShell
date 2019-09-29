@@ -1,0 +1,1 @@
+﻿(Get-AzureADGroup -ALL 1 -Filter "DisplayName eq 'GroupName'" | Get-AzureADGroupMember -ALL 1).COUNT
