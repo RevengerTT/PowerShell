@@ -54,3 +54,6 @@ $definition = New-AzureRmPolicyDefinition -Name "allowed-locations" -DisplayName
 $definition
 $assignment = New-AzureRMPolicyAssignment -Name "only East US" -Scope $rg.ResourceId  -listOfAllowedLocations "East US" -PolicyDefinition $definition
 $assignment
+
+
+#This is a change
